@@ -1,38 +1,50 @@
-[Zurück](Start.md)
+
+[Back] (Start.md)
 
 ---
 
-# Erste Aufgabe
+# First task
 
-Vervollständige `Nikolaus.elm`, um das Haus des Nikolaus zu malen:
+Complete `Nikolaus.elm` so that you paint the Nicholas's house:
 
-```elm
+```
+elm
 scene _ _ =
   group
-  [ rectangle (100,130)
-  , path [ (-50,-65), (50,65) ]
+  [ rectangle (100, 130)
+  , path [ (-50, -65), (50, 65) ]
   ]
 
-main = display (-200,-150) (200,150) scene Nothing
+main = display (-200, -150) (200, 150) scene Nothing
 ```
 
-Zielbild, etwa:
+The final image should look like this:
 
-![Haus des Nikolaus](../images/Nikolaus.png)
+![Nicholas's House] (../images/Nikolaus.png)
 
-Zusatz 1: Male einen kleinen Kreis um die Hausspitze.
+## Additional credit 1
 
-Hinweis: Ein Teilbild kann an eine beliebige Position verschoben werden mit `image |> move (x,y)`, wobei `image` der Ausdruck ist, der das Bild beschreibt, und `(x,y)` die Angabe, um wie viel in x- bzw. y-Richtung verschoben werden soll.
+Draw a small circle around the house top.
 
-Zusatz 2: Stelle "Mario" (`image (45,45) "http://elm-lang.org/imgs/mario/stand/right.gif"`) links neben das Haus. 
+## Additional credit 2
 
-Zusatz 3: Male statt dem einen Haus drei nebeneinander stehende gleiche Häuser.
+Positioning images. A image frame can be moved to any position to `image |> move (x, y)`, where `image` is the expression used to describe the image, and `(x, y)` specifies how much the image is to be moved in the x or y direction.
+
+Show the image "Mario" ![Mario](http://elm-lang.org/imgs/mario/stand/right.gif) to the left of the house.
+
+```
+image (45, 45) "http://elm-lang.org/imgs/mario/stand/right.gif"
+```
+
+## Additional credit 3
+
+Now show three of the same houses side by side instead of a single house.
 
 ---
 
-[Weiter](Forms.md)
+[Next] (Forms.md)
 
 ---
 
-([Datei](https://raw.githubusercontent.com/jvoigtlaender/Elm-Kurs/master/src/task01/Nikolaus.elm), [@share-elm](http://share-elm.com/sprout/55896e9be4b06aacf0e8a75a/0.14/view))
+([File](https://raw.githubusercontent.com/jvoigtlaender/Elm-Kurs/master/src/task01/Nikolaus.elm), [@share-elm](http://share-elm.com/sprout/55896e9be4b06aacf0e8a75a/0.14/view))
 
