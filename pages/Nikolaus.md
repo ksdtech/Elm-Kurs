@@ -24,7 +24,7 @@ The final image should look like this:
 
 ## Additional credit 1
 
-Draw a small circle around the house top.
+Draw a small circle at the top of the house.
 
 ## Additional credit 2
 
