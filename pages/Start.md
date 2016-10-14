@@ -19,5 +19,5 @@ Other links (with their own explanations):
 
 ---
 
-[Weiter](Nikolaus.md)
+[Next](Nikolaus.md)
 
