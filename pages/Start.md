@@ -1,14 +1,14 @@
 # Start
 
-Wir möchten uns mit der Programmiersprache [Elm](http://elm-lang.org/) beschäftigen.
+This is a beginning course about programming in the [Elm language](http://elm-lang.org/)
 
-Als kurze Impressionen, was damit möglich ist:
+Some short programming examples of what can be done with Elm:
 
 * [2048 clone](http://aergus.github.io/spot/)
 * [Geometry App](http://fanzier.github.io/elm-geometry/)
 * [Pacman-like](http://www.janis-voigtlaender.eu/teaching/afp13/labyrinth.html)
 
-Links (Erklärungen dazu mündlich):
+Other links (with their own explanations):
 
 * [Live-Editor](http://elm-lang.org/try)
 * [share-elm](http://share-elm.com)
